@@ -1,0 +1,42 @@
+# Arquivos compilados
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Arquivos temporários
+*.tmp
+*.log
+*.cache
+
+# Testes e cobertura
+TestResults/
+coverage/
+coverage-results/
+
+# Pacotes locais
+*.nupkg
+*.snupkg
+
+# Publicação
+publish/
+artifacts/
+
+# Arquivos com possíveis segredos
+.env
+.env.*
+appsettings.Development.local.json
