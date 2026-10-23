@@ -5,8 +5,6 @@ namespace WebApiPokemon.Services
 {
     public class PokemonService : IPokemonService
     {
-        private string _urlBase = "https://pokeapi.co/api/v2/";
-
         private readonly IHttpClientFactory _httpClientFactory;
 
         public PokemonService(IHttpClientFactory httpClientFactory)
